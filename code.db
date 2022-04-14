@@ -1,0 +1,30 @@
+Courses Data
+insert into courses values(1,"Cloud",2021,"Related to AWS",1300);
+insert into courses values(2,"Database",2021,"Related to Database Management System",1000);
+insert into courses values(3,"DataScience",2021,"Related to Data Analysis",1500);
+
+Instructor Data:
+insert into instructor values(11,"George","Kal","male",40,"george@gmail.com");
+insert into instructor values(12,"maali","joe","male",45,"mallijoe@gmail.com");
+insert into instructor values(13,"karry","james","male",50,"james@gmail.com");
+Schedule Data:
+insert into schedule values(1,"Monday", '12:00:00', '13:00:00',1,1,11,1);
+insert into schedule values(2,"Tuesday", '12:00:00', '13:00:00',1,2,13,3);
+insert into schedule values(3,"Wednesday", '12:00:00', '13:00:00',1,3,12,2);
+insert into schedule values(1,"Thursday", '12:00:00', '13:00:00',1,1,11,1);
+insert into schedule values(1,"Friday", '12:00:00', '13:00:00',1,1,11,1);
+Student Data
+insert into student values(1,"saikrishna","dubak","Shiva","male","saikrishna@gmail.com",11,1);
+insert into student values(2,"teja","Ravi","Notani","male","ravi@gmail.com",12,3);
+insert into student values(3,"Manoj","Jakana","Natsha","male","manoj@gmail.com",11,2);
+insert into student values(4,"Ramya","Lekanav","Hari","female","Ramya@gmail.com",13,3);
+Subjects Data:
+insert into subjects values(1,"Cloud Computing",1);
+insert into subjects values(2,"AWS",1);
+insert into subjects values(3,"Data Analysis",3);
+insert into subjects values(4,"DBMS",2);
+Transaction Data:
+insert into transaction values(1,"Course_fee",17/12/2021,1);
+insert into transaction values(2,"Course_fee",15/08/2021,2);
+insert into transaction values(3,"Course_fee",07/04/2021,3);
+insert into transaction values(4,"Course_fee",13/12/2021,1);
